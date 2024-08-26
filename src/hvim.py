@@ -69,8 +69,7 @@ def main(stdscr):
     curses.curs_set(0)
     curses.start_color()
     curses.mousemask(1)
-
-    # Initialize colors: Cyan for selected items and White for non-selected
+    
     curses.init_pair(1, curses.COLOR_CYAN, curses.COLOR_BLACK)  # Selected
     curses.init_pair(2, curses.COLOR_WHITE, curses.COLOR_BLACK)  # Unselected
 
