@@ -1,1 +1,1 @@
-a mini helper and file explorer
+a mini helper and file explorer for ubuntu servers
